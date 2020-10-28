@@ -1,0 +1,32 @@
+{
+  "welcomeFile": "/webapp/index.html",
+  "routes": [
+    {
+      "path": "/resources",
+      "target": {
+        "type": "service",
+        "name": "sapui5",
+        "entryPath": "/resources"
+      },
+      "description": "SAPUI5 Resources"
+    },
+    {
+      "path": "/test-resources",
+      "target": {
+        "type": "service",
+        "name": "sapui5",
+        "entryPath": "/test-resources"
+      },
+      "description": "SAPUI5 Test Resources"
+    },
+    {
+      "path": "/ES5EPM",
+      "target": {
+        "type": "destination",
+        "name": "ES5EPM"
+      },
+      "description": "EPM_REF_APPS_PROD_MAN_SRV"
+    }
+  ],
+  "sendWelcomeFileRedirect": true
+}
